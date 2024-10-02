@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Change Font
-// @version      1.2
+// @version      1.5
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
