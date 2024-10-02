@@ -4,10 +4,9 @@
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://raw.githubusercontent.com/hexros-dev/change-fonts/master/logo.png
 // @grant        GM_addStyle
-// @downloadURL  https://gist.githubusercontent.com/hexros-dev/3c67ff1e401b622748eea0be0163d9ed/raw/change-font.userscript.js
-// @updateURL    https://gist.githubusercontent.com/hexros-dev/3c67ff1e401b622748eea0be0163d9ed/raw/change-font.userscript.js
+// @updateURL    https://raw.githubusercontent.com/hexros-dev/change-fonts/master/userscript.js
 // ==/UserScript==
 
 (function () {
