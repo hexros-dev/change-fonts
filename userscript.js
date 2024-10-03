@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Change Font
-// @version      2.0
+// @version      2.1
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
@@ -36,7 +36,7 @@
 	function addFontOption(fontFamilyName) {
 		let selfont = document.getElementById('selfont');
 		let fontOption = document.createElement('option');
-		fontOption.value = fontFamilyName;
+		fontOption.value = `"${fontFamilyName}"`;
 		fontOption.text = fontFamilyName;
 		selfont.appendChild(fontOption);
 	}
