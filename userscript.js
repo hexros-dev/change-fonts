@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Change Font
-// @version      1.9
+// @version      2.0
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
 // @icon         https://raw.githubusercontent.com/hexros-dev/change-fonts/master/logo.svg
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/hexros-dev/change-fonts/master/userscript.js
+// @updateURL    https://raw.githubusercontent.com/hexros-dev/change-fonts/refs/heads/master/userscript.js
 // ==/UserScript==
 
 (function () {
