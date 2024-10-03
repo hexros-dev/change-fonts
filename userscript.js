@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Change Font
-// @version      1.8
+// @version      1.9
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
@@ -40,7 +40,7 @@
 		fontOption.text = fontFamilyName;
 		selfont.appendChild(fontOption);
 	}
-	font_names = ["Merienda", "Aleo", "STIX Two Text", "Playfair Display", "Fira Sans", "Playfair", "Poltawski Nowy", "Brygada 1918", "Vollkorn", "Cormorant"]
+	const font_names = ["Merienda", "Aleo", "STIX Two Text", "Playfair Display", "Fira Sans", "Playfair", "Poltawski Nowy", "Brygada 1918", "Vollkorn", "Cormorant"]
 	font_names.forEach((font) => {
 		addFontOption(font);
 	});
