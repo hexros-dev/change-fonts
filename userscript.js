@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Change Font
-// @version      1.6
+// @version      1.7
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
@@ -21,7 +21,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
         `);
 	// Thay đổi font cho body
@@ -39,7 +39,6 @@
 	addFontOption('Merienda');
 	addFontOption('Aleo');
 	addFontOption('STIX Two Text');
-	addFontOption('Playfair');
-	addFontOption('Playwrite AR');
-        addFontOption('Fira Sans');
+	addFontOption('Playfair Display');
+	addFontOption('Fira Sans');
 })();
