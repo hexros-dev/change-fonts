@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Change Font
-// @version      1.7
+// @version      1.8
 // @description  Thay đổi font cơ bản và thêm font vào lựa chọn đổi font trong truyện
 // @author       Hexros Raymond
 // @match        *://sangtacviet.vip/*
@@ -22,7 +22,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
         `);
 	// Thay đổi font cho body
 	GM_addStyle(`
@@ -36,9 +40,8 @@
 		fontOption.text = fontFamilyName;
 		selfont.appendChild(fontOption);
 	}
-	addFontOption('Merienda');
-	addFontOption('Aleo');
-	addFontOption('STIX Two Text');
-	addFontOption('Playfair Display');
-	addFontOption('Fira Sans');
+	font_names = ["Merienda", "Aleo", "STIX Two Text", "Playfair Display", "Fira Sans", "Playfair", "Poltawski Nowy", "Brygada 1918", "Vollkorn", "Cormorant"]
+	font_names.forEach((font) => {
+		addFontOption(font);
+	});
 })();
