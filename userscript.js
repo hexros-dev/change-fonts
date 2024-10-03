@@ -6,7 +6,7 @@
 // @match        *://sangtacviet.vip/*
 // @icon         https://raw.githubusercontent.com/hexros-dev/change-fonts/master/logo.svg
 // @grant        GM_addStyle
-// @updateURL    https://raw.githubusercontent.com/hexros-dev/change-fonts/refs/heads/master/userscript.js
+// @updateURL    https://raw.githubusercontent.com/hexros-dev/change-fonts/master/userscript.js
 // ==/UserScript==
 
 (function () {
